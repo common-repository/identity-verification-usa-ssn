@@ -1,0 +1,84 @@
+.loader_image{position: ABSOLUTE;margin-top: -5%;margin-left: 15%}
+#verify_piv,.btn,#identity_verification_usa_ssn{background:#4b85b2 !important;color:#fff;border:1px solid;width:70px !important;cursor:pointer;float:right;border-radius: 5px;padding:3px;font-size: 14px;font-weight: bold}
+#identity_verification_usa_ssn{text-decoration: none;text-align: center;}
+.err{color:Red;}
+.ivs-inner-form{width:75%;float:left;}
+.ivs-form1{margin-bottom:50px;float:left;width:75%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;padding:20px;background:#ededed;}
+.ivs-field {margin: 5px 0px;}
+.ivs-field label{width:24% !important;float: left;margin-top: 5px;}
+.ivs-field input{width:70%!important;float: right;}
+.ivs-field .btn{width: 75px!important;margin-left: 7px;float: left;}
+.ivs-field select{background: none repeat scroll 0 0 #f9f9f9;border: 1px solid #e0e0e0;float: right;height: 33px;width: 70% !important;padding-left: 5px;}
+.ivs-radio {float: right;width:70%!important;margin:9px 0px; }
+.ivs-radio input{float: none;display: inline;width: auto!important;}
+.ivs-field .ivs-input{width:70%!important;float: left;margin-left:15px;}
+.ivs-field .ivs-input input{width:100%!important;}
+.ivs-field .ivs-input select{width:100%!important;}
+.ivs-field .ivs-input .err{display: inline-block;
+    font-size: 13px;
+    font-style: italic;
+    margin-top: 7px !important;
+}
+table.response-tbl{width:100%!important;margin: 20px auto!important;border: 1px solid #ededed; }
+table.response-tbl td{padding: 7px 10px!important;}
+
+
+@media (max-width: 525px) and (min-width: 320px) {
+	.ivs-form{width: 100%;}
+	.ivs-field label{display: none;}
+	.ivs-field .ivs-input{width:100%!important;float: none;}
+	.ivs-radio {width: 100%!important;}
+	.ivs-btn {text-align: center;}
+	.ivs-field .btn {float: none;text-align: center;}
+	table.response-tbl{width:100%!important;}
+
+}
+@media (max-width: 768px) and (min-width: 526px) {
+		.ivs-form{width: 100%;}
+		table.response-tbl{width:75%!important;}
+}
+@media (max-width: 1200px) and (min-width: 769px) {
+	.ivs-form{width: 75%;}
+}
+
+.alert-static {	display: none;	background-color: #FCF8E3;	border: 1px solid #fffff4;	border-radius: 4px 4px 4px 4px;	color: #C09853;	margin-bottom: 18px;	padding: 8px 35px 8px 14px;	text-shadow: 0 1px 0 rgba(255,255,255,0.5);	font-family: "open sans";	text-align: center;	font-size: 14px;}
+.tbl-list tr th,.tbl-list tr td{padding:15px;width:150px;text-align: left;line-height: :30px;border-bottom:1px solid #dfdfdf;border-right:1px solid #dfdfdf;}
+.tbl-list tr th:last-child,.tbl-list tr td:last-child{border-right:0px solid #dfdfdf;}
+
+
+.personal_info{width:48%;float:left;margin:5px !important;margin-bottom: 10px}
+
+.ivs-inner-form{border-bottom:1px dotted #000;margin:10px;}
+
+/* Backend IVS Form - Start 04/03/2015 */
+
+.ivs-bc .setting{width: 55%;float: left;margin-right: 15px;}
+.ivs-bc .info{width: 29%;float: left;background: #fff;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+.ivs-bc .info img{max-width: 300px;margin: 20px auto;}
+.ivs-bc .setting .form-table td{padding: 7px!important;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+body .ivs-bc .setting table.form-table tr td:nth-child(1){font-weight: bold;width: 38%;}
+body .ivs-bc .setting table.form-table tr td:nth-child(2){width: 60%;}
+body .ivs-bc .setting table.form-table tr td:nth-child(2) input{width: 100%;height: 40px;}
+body .ivs-bc .setting table.form-table tr td:nth-child(2) input[type="submit"]{width: 75px;}
+
+
+
+@media (max-width: 1100px) and (min-width: 781px) {
+.ivs-bc .setting{width: 100%;float: none;}
+.ivs-bc .info{width: 100%;margin-top: 20px;}
+}
+@media (max-width: 1350px) and (min-width: 1099px) {
+.ivs-bc .setting{width: 70%;float: none;}
+.ivs-bc .info{width: 100%;margin-top: 20px;}
+}
+
+@media (max-width: 780px) and (min-width: 320px) {
+.ivs-bc .setting{width: 100%;float: none;}
+.ivs-bc .info{width: 100%;margin-top: 20px;}
+body .ivs-bc .setting .form-table td{padding-bottom: 2px!important;margin-bottom: 0px!important;}
+body .ivs-bc .setting table.form-table tr td:nth-child(2){margin-bottom: 20px!important;}
+body .ivs-bc .setting table.form-table {width: 100%!important;}
+body .ivs-bc .setting table.form-table td{width: 100%!important;}
+body .ivs-bc .setting table.form-table tr td.td-btn{text-align: center;}
+}
+/* Backend IVS Form - End */
